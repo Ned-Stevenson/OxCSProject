@@ -38,6 +38,9 @@
 *.synctex.gz(busy)
 *.pdfsync
 
+## Formatter backup files
+*.bak[0-9]*
+
 ## Auxiliary and intermediate files from other packages:
 # algorithms
 *.alg
@@ -130,6 +133,7 @@ acs-*.bib
 *.maf
 *.mlf
 *.mlt
+*.mtc
 *.mtc[0-9]*
 *.slf[0-9]*
 *.slt[0-9]*
@@ -221,3 +225,9 @@ TSWLatexianTemp*
 
 # Mac .DS_Store files
 .DS_Store
+
+# Python stuff
+.venv/
+
+# IDE files
+.vscode/

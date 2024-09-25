@@ -1,0 +1,36 @@
+\section{Background}
+\label{sec:background}
+
+\subsection{Benefits of using LaTeX}
+
+\LaTeX\ brings all of the benefits of software development, particularly the ability to reuse work
+(both your own and other people's) through the use of subroutines and packages. In \LaTeX, packages
+are widely available for many different uses, some of which I try to demonstrate in
+Section~\ref{sec:usage}. They are imported through the use of the \verb*|\usepackage| command, and
+allow you to subsequently use the commands that they define. You can define your own subroutines
+using the \verb*|\newcommand| command, helping you stay on top of keeping your documents concise
+and fast to work on.
+
+Another benefit that \LaTeX\ affords us is the separation of our work into multiple, more easily
+navigated files. I found it helpful to separate my project to include one file per section, to
+keep any one file where I was actually working and writing content to a manageable length. Of
+course you don't need to copy me if you prefer to write your documents in a single monolithic
+file, but at least you have the option.
+
+\subsection{Challenges of working in conventional word processors}
+
+One of the challenges of working in a word processor is the way that it can slow down as the size
+of the document you're navigating grows. This can get quite frustrating, particularly as you try
+to get the finishing touches on your formatting the night you're trying to submit your writeup.
+
+Another challenge is working with automatically generated components of your document, such as
+bibliographies, tables of contents, and glossaries. In \LaTeX, this type of thing can be neatly
+tracked for you by whichever package you're using. And often formatting can be as simple as a
+sequence of command arguments, rather than doing it manually after regenerating your tables.
+
+And not least, displaying your code, something I hope you'll do a fair amount, feels far more
+challenging in a word processor than in \LaTeX. Your only real option is to copy from your
+\acrshort{ide} and keep formatting, which doesn't let you elegantly deal with long lines of code,
+change your formatting after the fact, or keep your code in its source files and import it into
+your document directly. All these things are handled much more elegantly in \LaTeX, as will be
+demonstrated in Section~\ref{sec:code_listing}.

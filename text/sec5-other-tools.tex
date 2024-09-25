@@ -1,0 +1,46 @@
+\section{Other tools}
+\label{sec:other_tools}
+
+This section describes the range of tools aside from \LaTeX\ that you may want to be familiar with
+while you're working on your project. This is not intended to be a comprehensive list and is only
+the tools that I found useful in my project. Alternatives of course exist to everything I talk
+about here, and you should investigate what works for you before simply copying my method.
+
+\subsection{Matplotlib}
+
+Matplotlib~\cite{MatplotlibVisualizationPython} is a Python library that provides easy to use
+graph plotting functionality, along side other visualisation features that you may find helpful.
+By producing your graph plots in Python, you can integrate it easily into the data processing
+stage of your project, if one exists.
+
+This lets you be very versatile with how you display your data, without needing to work within the
+more constrained options of something like Microsoft Excel. I also found it more intuitive to
+understand the relationships I'm trying to demonstrate when working in Python compared to a
+spreadsheet.
+
+See Figure~\ref{fig:stack_overflow} for an example of a plot made using Matplotlib, and see
+appendix~\ref{sec:matplotlib_example} for source code of the plot.
+
+\subsection{Zotero}
+
+Zotero~\cite{ZoteroYourPersonal} is a reference manager that allows you to easily collect and keep
+track of all the references that you'll need to include in your project writeup. By using the
+Zotero browser extension~\cite{ZoteroConnectors} and the Better BibTeX
+add-on~\cite{BetterBibTeXZotero}, you can make it easy to add to your bibliography with the
+browser extension. The Better BibTeX add-on will then make sure that the citation keys that are
+exported from Zotero are consistent and do not clash, making it easy to see what you're
+referencing when writing your \LaTeX.
+
+If you use this method, make sure you set the format to Better BibLaTeX when exporting to your
+\verb|references.bib| file (or whatever name you end up using for your bibliography file).
+
+\subsection{Draw.io}
+
+Draw.io~\cite{Drawio} is a tool used to draw whatever diagrams you need to explain the core
+concepts of your project. Maybe it's important to explain an inheritance diagram, relational
+database, or just a simple flowchart for your code.
+
+You can either use the online editor or download the draw.io app to use locally. You can then
+export the diagrams you create to a bitmap image format, such as \verb|.png|, or to a vector
+format, such as \verb|.svg|. I recommend keeping your draw.io save file in the folder with your
+figures whether or not you're using an OverLeaf project.

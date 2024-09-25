@@ -1,0 +1,57 @@
+\section{Installation}
+\label{sec:installation}
+
+For the purpose of your project, I strongly encourage you to use
+OverLeaf~\cite{OverleafOnlineLaTeX} while you become familiar with this new and exciting
+technology. Once you feel a desire to learn more about \LaTeX, such as in the summer after your
+project of choice, it is worth considering writing something in a code editor or \acrshort{ide}
+such as \acrfull{vscode}, as I am for this template.
+
+\subsection{OverLeaf}
+\label{sec:installation/OverLeaf}
+
+OverLeaf (\url{www.overleaf.com}) is an online \LaTeX\ editor that makes it easy to get started
+with using \LaTeX\, avoiding having to install a TeX distribution such as TeX
+Live~\cite{TeXLiveTeX} onto your PC and letting you share your writeup with your supervisor to
+make getting feedback as easy as possible.
+
+As a disclaimer, these steps may not be perfectly accurate, since I'm writing them from memory and
+they are, of course, subject to change.
+
+\begin{enumerate}
+	\item Navigate to \url{www.overleaf.com} and create an account using your Oxford login. Either
+	      your college (e.g., your.name@college.ox.ac.uk) or your department (e.g.,
+	      your.name@cs.ox.ac.uk) alias is fine, since you can later add the other as a secondary
+	      email. By using an Oxford email, you will get free access to the premium features.
+	\item In your user settings, link your OverLeaf account to a GitHub account.
+	      \todo[inline]{Expand on this. I don't remember how this goes}
+	\item Go to \url{github.com/Ned-Stevenson/OxCSProject} and create a fork of OxCSProject. This
+	      will create a new repo that you own as a copy of OxCSProject, which you can then import
+	      into OverLeaf.
+	\item At the OverLeaf home page (\url{www.overleaf.com/project}), create a new project, and
+	      select "Import from GitHub". From the list, select your forked repo.
+\end{enumerate}
+
+\subsection{Offline}
+\label{sec:installation/offline}
+
+To install offline, you need only clone this repository into whichever folder you'd like to work
+in. I would recommend making a fork of the repo and cloning that so that you can version control
+your work, protecting your efforts in the case of loss, damage, or theft of your favourite \LaTeX\
+writing device. You will also need to install something to render your \LaTeX\ into a PDF, such as
+TeX Live~\cite{TeXLiveTeX} and an \acrshort{ide} to work in.
+
+\begin{enumerate}
+	\item (Optionally) Go to \url{github.com/Ned-Stevenson/OxCSProject} and create a fork of
+	      OxCSProject
+	\item Clone this repo or your fork onto your local device:
+
+	      \verb*|git clone https://github.com/Ned-Stevenson/OxCSProject.git|
+	\item Install a tool such as TeX Live~\cite{TeXLiveTeX}, following any relevant instructions.
+\end{enumerate}
+
+I can also recommend the LaTeX Workshop \acrshort{vscode} extension~\cite{LaTeXWorkshopVisual} as
+well as latexindent~\cite{hughesCmhughesLatexindentpl2024} to make it easy to both render your
+code as well as keep it tidy and readable. Note that latexindent comes pre-installed with TeX
+Live, and the configuration options that I used to format this project are available in the GitHub
+repository.
