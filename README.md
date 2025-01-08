@@ -4,6 +4,8 @@
 
 Feel free to submit issues or push requests here, and see the content of the template's PDF output for further details.
 
+Consider also looking at the reduced version of this template intended for [mini-projects](https://github.com/Ned-Stevenson/OxCSMiniproject) for applicable part C courses.
+
 ---
 
 When writing my Part B project in 2024, I was lucky enough to find [a template that John McManigle had made](https://github.com/mcmanigle/OxThesis). He in turn had built on top of [a template that Sam Evans adapted](http://evansresearch.org/2010/05/oxford-thesis-latex-template/) for social sciences use based on [the original maths template by Keith Gillow](https://www.maths.ox.ac.uk/members/it/faqs/latex/thesis-class). I took John's template and adjusted it to be suitable for a shorter project report instead of the originally intended, much longer, thesis.  This template is distributed under an MIT License with each of their permissions.  It's also worth pointing out that [Danny Price has developed a LyX template](https://github.com/telegraphic/Oxford-LyX-Thesis-Template) based on the maths template as well.
