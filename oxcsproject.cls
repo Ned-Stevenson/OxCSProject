@@ -64,9 +64,9 @@
 
 \usepackage{silence}
 
-% NS - If we're using the todonotes, then give them some extra margin space
-\iffinal
-\else
+% NS - If we're using the draft, then give the todo notes some extra margin space
+% Don't touch the margin if not on draft, so we can check the final layout
+\ifdraft
   \setlength{\marginparwidth}{2.7cm}
 \fi
 
@@ -134,7 +134,7 @@
 \fi
 
 % Lets us put in convenient todo labels. Don't show on the final result
-\usepackage[colorinlistoftodos, \iffinal{disable}\fi]{todonotes}
+\usepackage[colorinlistoftodos, obeyFinal, tickmarkheight=0.2cm]{todonotes}
 
 \usepackage{xcolor}
 % Lets us define named colours. Used below in the code listing setup
